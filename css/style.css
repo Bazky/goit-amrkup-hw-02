@@ -1,16 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+ul {
+  list-style: none;
+}
 .logo {
-  text-decoration: none;
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-
+  text-decoration: none;
   letter-spacing: 0.03em;
-
+  cursor: pointer;
   color: #212121;
 }
 .web {
@@ -23,6 +24,15 @@ body {
   color: #2196f3;
 }
 .change-site {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #212121;
+}
+.change-site:hover {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -30,9 +40,28 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: #2196f3;
 }
 
+.adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+  text-decoration: none;
+}
+.adress:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
 .main-text {
   font-weight: 900;
   font-size: 44px;
@@ -44,35 +73,64 @@ body {
 
   color: #ffffff;
 }
-.request {
+.button {
+  font-family: inherit;
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
 
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 
   color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
-a[href="info@devstudio.com"] {
-  color: #757575;
-  text-decoration: none;
-}
-a[href="+380961111111"] {
-  color: #757575;
-  text-decoration: none;
-}
-
-.adress {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+.footer-adress {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
+  color: #757575;
+  text-decoration: none;
+}
+
+/* portfolio */
+.buttons-panel {
+  width: 128px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  color: #212121;
+}
+.buttons-panel:hover {
+  width: 128px;
+  height: 38px;
+
+  background: #2196f3;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
   letter-spacing: 0.03em;
 
   color: #ffffff;
