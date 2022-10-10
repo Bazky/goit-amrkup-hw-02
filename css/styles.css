@@ -1,11 +1,22 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: var(--white);
+}
+.night-mode {
+  color: var(--black);
 }
 ul {
   list-style: none;
 }
+
 .logo {
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -24,18 +35,16 @@ ul {
   color: #2196f3;
 }
 .change-site {
-  font-weight: 500;
+  font-family: inherit;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   cursor: pointer;
   text-decoration: none;
   color: #212121;
+  color: var(--black);
 }
 .change-site:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -44,18 +53,16 @@ ul {
 }
 
 .adress {
-  font-weight: 500;
+  font-family: inherit;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #757575;
   text-decoration: none;
+  color: var(--black);
 }
 .adress:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -63,6 +70,7 @@ ul {
   color: #2196f3;
 }
 .main-text {
+  font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -95,17 +103,19 @@ ul {
 }
 
 .footer-adress {
-  font-weight: 500;
+  font-family: inherit;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #757575;
   text-decoration: none;
+  color: var(--black);
 }
 
 /* portfolio */
 .buttons-panel {
+  font-family: inherit;
   width: 128px;
   height: 38px;
 
