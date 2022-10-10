@@ -1,6 +1,7 @@
 :root {
   --white: #ffffff;
   --black: #000000;
+  --grey: #757575;
 }
 
 body {
@@ -39,9 +40,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  cursor: pointer;
   text-decoration: none;
-  color: #212121;
   color: var(--black);
 }
 .change-site:hover {
@@ -53,6 +52,7 @@ ul {
 }
 
 .adress {
+  color: var(--black);
   font-family: inherit;
   font-size: 14px;
   line-height: 16px;
@@ -60,7 +60,7 @@ ul {
 
   color: #757575;
   text-decoration: none;
-  color: var(--black);
+  color: var(--grey);
 }
 .adress:hover {
   font-size: 14px;
@@ -110,7 +110,7 @@ ul {
 
   color: #757575;
   text-decoration: none;
-  color: var(--black);
+  color: var(--grey);
 }
 
 /* portfolio */
@@ -128,7 +128,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
-  color: #212121;
 }
 .buttons-panel:hover {
   width: 128px;
