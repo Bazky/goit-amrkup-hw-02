@@ -1,6 +1,6 @@
 :root {
   --white: #ffffff;
-  --black: #000000;
+  --black: #212121;
   --grey: #757575;
   --darkblue: #2f303a;
   --lightgrey: #f5f4fa;
@@ -9,7 +9,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: #212121;
   background-color: var(--white);
 }
 .night-mode {
@@ -135,7 +135,7 @@ ul {
   color: #212121;
 }
 
-.photo-header2 {
+.photo-header-two {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.25;
@@ -145,6 +145,7 @@ ul {
 
 .footer-adress {
   font-family: inherit;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.25;
   letter-spacing: 0.02em;
