@@ -130,7 +130,7 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.photo-header-one {
+.photo-header-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -139,7 +139,7 @@ ul {
   color: var(--black);
 }
 
-.photo-header-two {
+.photo-header-portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.25;
