@@ -10,12 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
-  <body>
+  <body class="night-mode">
     <header>
-      <section>
+      <section class="content">
         <ul>
           <li>
             <a href="./index.html" class="logo"
@@ -53,50 +54,54 @@
         </ul>
       </section>
     </header>
-
-    <div>
-      <h1 class="main-text">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-      <p>
-        <button class="button" type="button">Request our service</button>
-      </p>
-    </div>
-    <main>
-      <div class="night-mode">
-        <ul class="description">
-          <li>
-            <h3 class="description-header">ATTENTION TO DETAILS</h3>
-            <p>
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
-
-          <li>
-            <h3 class="description-header">PUNCTUALITY</h3>
-            <p>
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and respect the agreed deadlines.
-            </p>
-          </li>
-
-          <li>
-            <h3 class="description-header">PLANNING</h3>
-            <p>
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li>
-            <h3 class="description-header">MODERN TECHNOLOGIES</h3>
-            <p>
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
-        </ul>
+    <section>
+      <div class="content">
+        <h1 class="main-text">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <p>
+          <button class="button" type="button">Request our service</button>
+        </p>
       </div>
-      <div class="night-mode">
-        <section>
+    </section>
+    <main>
+      <section>
+        <div>
+          <ul class="description">
+            <li>
+              <h3 class="description-header">ATTENTION TO DETAILS</h3>
+              <p>
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+
+            <li>
+              <h3 class="description-header">PUNCTUALITY</h3>
+              <p>
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and respect the agreed deadlines.
+              </p>
+            </li>
+
+            <li>
+              <h3 class="description-header">PLANNING</h3>
+              <p>
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li>
+              <h3 class="description-header">MODERN TECHNOLOGIES</h3>
+              <p>
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div>
           <h2 class="section-headers">What we do</h2>
           <ul>
             <li>
@@ -127,10 +132,11 @@
               </figure>
             </li>
           </ul>
-        </section>
-      </div>
-      <div class="night-mode">
-        <section>
+        </div>
+      </section>
+
+      <section class="content">
+        <div>
           <h2 class="section-headers">Our Team</h2>
           <ul class="photo-description">
             <li>
@@ -180,25 +186,26 @@
               <p>UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
-    <div>
-      <a href="./index.html" class="logo"
-        ><p><span class="web">Web</span>Studio</p></a
-      >
 
-      <footer class="night-mode">
+    <footer>
+      <div class="content">
+        <a href="./index.html" class="logo"
+          ><p><span class="web">Web</span>Studio</p></a
+        >
+
         <p>695 Park Ave, New York, NY 10065, United States</p>
         <address>
-          <a class="footer-adress" href="info@devstudio.com" target="_blank"
+          <a class="adress" href="info@devstudio.com" target="_blank"
             >info@devstudio.com
           </a>
-          <a class="footer-adress" href="+380961111111" target="_blank"
+          <a class="adress" href="+380961111111" target="_blank"
             >+38 096 111 11 11</a
           >
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
